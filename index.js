@@ -32,7 +32,7 @@
 // });
 
 ///////////// REACT JS /////////////////
-import Cars from "../Backend/Data.js";
+import Cars from "./Data.js";
 import express from "express";
 
 const app = express();
