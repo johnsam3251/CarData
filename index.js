@@ -32,10 +32,14 @@
 // });
 
 ///////////// REACT JS /////////////////
+import Cors from "cors";
 import Cars from "./Data.js";
 import express from "express";
 
 const app = express();
+// const host = "http://localhost:5173/";
+
+app.use(Cors({ origin: "*" }));
 
 const allData = [...Cars];
 const port = 4000;
