@@ -7,7 +7,7 @@ const Cars = [
     horsepower: 169,
     id: 1,
     image:
-      "vehicle-images.dealerinspire.com/stock-images/chrome/d1d464461b8cf4f582a6ea31c584cd1c.png",
+      "https://vehicle-images.dealerinspire.com/stock-images/chrome/d1d464461b8cf4f582a6ea31c584cd1c.png",
     maker: "Toyota",
     mileage: 20000,
     model: "Corolla",
